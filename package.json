@@ -1,0 +1,25 @@
+{
+  "name": "@hetx/tx-ui",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@grapecity/wijmo.vue2.input": "^5.20221.857",
+    "vue": "^3.2.37"
+  },
+  "devDependencies": {
+    "@iconify-json/ic": "^1.1.9",
+    "@vitejs/plugin-vue": "^3.1.0",
+    "@vitejs/plugin-vue-jsx": "^2.0.1",
+    "sass": "^1.55.0",
+    "typescript": "^4.6.4",
+    "unocss": "^0.46.1",
+    "vite": "^3.1.0",
+    "vue-tsc": "^0.40.4"
+  }
+}
